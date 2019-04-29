@@ -22,7 +22,7 @@ Build and Run
 To build the image just run
 
 ```
-docker build -t cheloide/wls1036 /path/to/Dockerfile/folder/
+docker build --rm -t cheloide/wls1036 /path/to/Dockerfile/folder/
 ```
 
 To run the image run 

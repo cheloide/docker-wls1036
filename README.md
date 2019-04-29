@@ -5,7 +5,7 @@ Docker image with a Weblogic Server 10.3.6 Running and a Domain with standard po
 Required Files (links provided)
 ------
 
-1. [WebLogic Server 11gR1 (10.3.6) generic installer(For 64-bit JVM)](http://download.oracle.com/otn/nt/middleware/11g/wls/1036/wls1036_generic.jar)
+1. [WebLogic Server 11gR1 (10.3.6) generic installer (For 64-bit JVM)](http://download.oracle.com/otn/nt/middleware/11g/wls/1036/wls1036_generic.jar)
 1. [Java SE Development Kit 6u45](http://download.oracle.com/otn/java/jdk/6u45-b06/jdk-6u45-linux-x64.bin)
 
 Since you're downloading the files from oracle servers you'll need an Oracle Account.

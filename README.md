@@ -25,14 +25,9 @@ To build the image just run
 docker build --rm -t cheloide/wls1036 /path/to/Dockerfile/folder/
 ```
 
-To run the image run 
+To deploy the image run:
 ```
-docker run -t cheloide/wls1036
-```
-
-To build the image run:
-```
-docker build -t cheloide/wls1036 -p 7001:7001 -p 7002:7002 -p 8001:8001 -p 5556:5556
+docker run cheloide/wls1036 -p 7001:7001 -p 7002:7002 -p 8001:8001 -p 5556:5556
 ```
 the previous command have the default ports for the weblogic server 10.3.6 set up
 
